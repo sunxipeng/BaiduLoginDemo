@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/apiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="同步获取LoggedInUser" />
+
+    <EditText
+        android:id="@+id/apiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/apiAsyncButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="异步获取LoggedInUser" />
+
+    <EditText
+        android:id="@+id/apiAsyncTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/logOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清楚token" />
+
+</LinearLayout>
